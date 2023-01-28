@@ -10,8 +10,8 @@ st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Walmart_Labs
 st.markdown("<h1 style='text-align: center; color: black;'>Online Electronics Purchasing Behavior</h1>", unsafe_allow_html=True)
 
 # Import train dataset to DataFrame
-train_df = pd.read_csv("../dat/train.csv.gz", compression="gzip")
-model_results_df = pd.read_csv("../dat/model_results.csv")
+train_df = pd.read_csv("dat/train.csv.gz", compression="gzip")
+model_results_df = pd.read_csv("dat/model_results.csv")
 
 # Drop uniformative columns
 train_df.drop(columns=["year", "month", "Weekend"], inplace=True)
