@@ -1,4 +1,4 @@
-<p align = "center" draggable=”false” ><img src="https://user-images.githubusercontent.com/37101144/161836199-fdb0219d-0361-4988-bf26-48b0fad160a3.png" 
+<p align = "center" draggable="false" ><img src="https://user-images.githubusercontent.com/37101144/161836199-fdb0219d-0361-4988-bf26-48b0fad160a3.png" 
      width="200px"
      height="auto"/>
 </p>
@@ -65,7 +65,7 @@ Consider you have training data with the `Revenue` attribute for records from Ju
 
 Point breakdown:
 
-- ( 2 points) Correctly splits the data by month into labeled, unlabeled, and test 
+- (2 points) Correctly splits the data by month into labeled, unlabeled, and test 
 - (8 points) Generate labels for unlabeled samples with a self labeling technique
 - (5 points) Compare and contrast performance difference on test dataset between labels only and labels & self-labels
 
